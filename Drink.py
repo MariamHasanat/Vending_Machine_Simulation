@@ -15,4 +15,4 @@ class Drink(Product):
 
     def display_info(self):
         product_info = super().display_info()
-        return f"{product_info}, Volume: {self.__volume}ml"
+        return f"{product_info}Volume: {self.__volume}ml"

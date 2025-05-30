@@ -14,4 +14,4 @@ class Snack(Product):
 
     def display_info(self):
         product_info = super().display_info()
-        return f"{product_info}, Calories: {self.__calories}kcal"
+        return f"{product_info}Calories: {self.__calories}kcal"

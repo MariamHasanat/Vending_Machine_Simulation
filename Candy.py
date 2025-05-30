@@ -14,4 +14,4 @@ class Candy(Product):
 
     def display_info(self):
         product_info = super().display_info()
-        return f"{product_info}, Flavor: {self.__flavor}"
+        return f"{product_info}Flavor: {self.__flavor}"
